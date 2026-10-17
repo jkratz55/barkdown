@@ -17,6 +17,8 @@ xcodebuild -project Barkdown.xcodeproj -scheme Barkdown test -only-testing:Barkd
 
 Tests use Swift Testing (`import Testing`, `@Test`). Right now they're only the template placeholders.
 
+Releases: `scripts/release.sh [--draft] [--skip-publish] [version]` archives the app, exports it with Developer ID signing (`ExportOptions.plist`), builds `build/Barkdown-<version>.dmg`, then notarizes and staples it and publishes a GitHub release with `gh`. It needs the `barkdown-notary` notarytool keychain profile. The version defaults to `MARKETING_VERSION`.
+
 The editor bundle has to be rebuilt after any change under `EditorWeb/src`:
 
 ```sh

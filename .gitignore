@@ -1,0 +1,37 @@
+# macOS
+.DS_Store
+._*
+
+# Xcode
+build/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+timeline.xctimeline
+playground.xcworkspace
+*.profraw
+*.profdata
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Packages/
+
+# Node (EditorWeb)
+node_modules/
+npm-debug.log*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Claude Code local settings
+.claude/settings.local.json

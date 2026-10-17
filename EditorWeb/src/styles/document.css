@@ -1,0 +1,213 @@
+/* Shared document styles: theme variables plus rendered Markdown (.markdown-body),
+   used both inside the editor (tables, HTML blocks, TOC) and in exports. */
+
+:root {
+  color-scheme: var(--bd-scheme, light);
+  --bd-scheme: light;
+  --bd-bg: #ffffff;
+  --bd-fg: #24272d;
+  --bd-muted: #6b7280;
+  --bd-faint: #a3a8b3;
+  --bd-accent: #5b5bd6;
+  --bd-link: var(--bd-accent);
+  --bd-selection: rgba(91, 91, 214, 0.2);
+  --bd-border: #e7e8ec;
+  --bd-code-bg: #f6f7f9;
+  --bd-code-fg: #2b2f36;
+  --bd-inline-code-bg: rgba(120, 125, 140, 0.13);
+  --bd-inline-code-fg: #c2410c;
+  --bd-quote-border: #d9dbe1;
+  --bd-quote-fg: #5d6370;
+  --bd-quote-bg: transparent;
+  --bd-mark-bg: #fdf0a0;
+  --bd-mark-fg: inherit;
+  --bd-table-border: #e3e5ea;
+  --bd-table-header-bg: #f7f8fa;
+  --bd-table-stripe: #fbfbfc;
+  --bd-hr: #e3e5ea;
+  --bd-panel-bg: rgba(255, 255, 255, 0.92);
+  --bd-panel-border: rgba(0, 0, 0, 0.1);
+  --bd-shadow: 0 8px 30px rgba(15, 20, 40, 0.12), 0 1px 3px rgba(15, 20, 40, 0.08);
+  --bd-font-body: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --bd-font-heading: var(--bd-font-body);
+  --bd-font-mono: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas, monospace;
+  --bd-font-size: 16px;
+  --bd-line-height: 1.72;
+  --bd-content-width: 780px;
+  --bd-heading-color: #15171b;
+  --bd-heading-weight: 680;
+  --bd-heading-spacing: -0.012em;
+  --bd-h1-size: 2.05em;
+  --bd-h2-size: 1.55em;
+  --bd-h3-size: 1.28em;
+  --bd-h4-size: 1.12em;
+  --bd-h5-size: 1em;
+  --bd-h6-size: 0.95em;
+  --bd-h1-border: none;
+  --bd-h2-border: none;
+  --bd-radius: 8px;
+  --tok-keyword: #7c3aed;
+  --tok-string: #0f7b52;
+  --tok-number: #b45309;
+  --tok-comment: #8a919e;
+  --tok-function: #2563eb;
+  --tok-type: #0e7490;
+  --tok-variable: inherit;
+  --tok-property: #1d4ed8;
+  --tok-operator: #6b7280;
+  --tok-tag: #be185d;
+  --tok-attr: #b45309;
+  --tok-meta: #6b7280;
+}
+
+.markdown-body {
+  font-family: var(--bd-font-body);
+  font-size: var(--bd-font-size);
+  line-height: var(--bd-line-height);
+  color: var(--bd-fg);
+  word-wrap: break-word;
+}
+
+.bd-export {
+  margin: 0;
+  background: var(--bd-bg);
+  color: var(--bd-fg);
+}
+.bd-export .markdown-body {
+  max-width: var(--bd-content-width);
+  margin: 0 auto;
+  padding: 48px 32px 80px;
+}
+
+.markdown-body > :first-child { margin-top: 0; }
+.markdown-body p, .markdown-body ul, .markdown-body ol, .markdown-body blockquote,
+.markdown-body pre, .markdown-body table, .markdown-body .md-math-block, .markdown-body .md-diagram {
+  margin: 0 0 1em;
+}
+
+.markdown-body h1, .markdown-body h2, .markdown-body h3,
+.markdown-body h4, .markdown-body h5, .markdown-body h6 {
+  font-family: var(--bd-font-heading);
+  font-weight: var(--bd-heading-weight);
+  color: var(--bd-heading-color);
+  letter-spacing: var(--bd-heading-spacing);
+  line-height: 1.3;
+  margin: 1.5em 0 0.55em;
+}
+.markdown-body h1 { font-size: var(--bd-h1-size); border-bottom: var(--bd-h1-border); }
+.markdown-body h2 { font-size: var(--bd-h2-size); border-bottom: var(--bd-h2-border); }
+.markdown-body h3 { font-size: var(--bd-h3-size); }
+.markdown-body h4 { font-size: var(--bd-h4-size); }
+.markdown-body h5 { font-size: var(--bd-h5-size); }
+.markdown-body h6 { font-size: var(--bd-h6-size); color: var(--bd-muted); }
+
+.markdown-body a { color: var(--bd-link); text-decoration: underline; text-decoration-color: color-mix(in srgb, var(--bd-link) 40%, transparent); text-underline-offset: 2px; }
+.markdown-body strong { font-weight: 650; }
+.markdown-body mark { background: var(--bd-mark-bg); color: var(--bd-mark-fg); border-radius: 3px; padding: 0 2px; }
+.markdown-body del, .markdown-body s { color: var(--bd-muted); }
+.markdown-body img { max-width: 100%; border-radius: 6px; }
+.markdown-body p > img:only-child { display: block; margin: 0 auto; }
+.markdown-body kbd {
+  font-family: var(--bd-font-mono); font-size: 0.82em; padding: 0.1em 0.45em;
+  border: 1px solid var(--bd-border); border-bottom-width: 2px; border-radius: 5px; background: var(--bd-code-bg);
+}
+
+.markdown-body code {
+  font-family: var(--bd-font-mono);
+  font-size: 0.87em;
+  background: var(--bd-inline-code-bg);
+  color: var(--bd-inline-code-fg);
+  border-radius: 5px;
+  padding: 0.12em 0.36em;
+}
+.markdown-body pre {
+  background: var(--bd-code-bg);
+  color: var(--bd-code-fg);
+  border-radius: var(--bd-radius);
+  padding: 0.9em 1.1em;
+  overflow-x: auto;
+  line-height: 1.55;
+}
+.markdown-body pre code { background: none; color: inherit; padding: 0; font-size: 0.87em; border-radius: 0; }
+
+.markdown-body blockquote {
+  border-left: 3px solid var(--bd-quote-border);
+  background: var(--bd-quote-bg);
+  color: var(--bd-quote-fg);
+  padding: 0.1em 0 0.1em 1em;
+  margin-left: 0;
+}
+.markdown-body blockquote > :last-child { margin-bottom: 0; }
+
+.markdown-body ul, .markdown-body ol { padding-left: 1.7em; }
+.markdown-body li + li { margin-top: 0.2em; }
+.markdown-body li > p { margin: 0.2em 0; }
+.markdown-body ul.contains-task-list { list-style: none; padding-left: 0.4em; }
+.markdown-body .task-list-item input { margin: 0 0.45em 0 0; vertical-align: -0.1em; accent-color: var(--bd-accent); }
+.markdown-body .task-done { color: var(--bd-muted); }
+
+.markdown-body hr { border: none; border-top: 1px solid var(--bd-hr); margin: 2em 0; }
+
+.markdown-body table {
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid var(--bd-table-border);
+  border-radius: var(--bd-radius);
+  overflow: hidden;
+  display: table;
+  max-width: 100%;
+}
+.markdown-body th, .markdown-body td {
+  padding: 0.45em 0.85em;
+  border-bottom: 1px solid var(--bd-table-border);
+  border-right: 1px solid var(--bd-table-border);
+  text-align: left;
+  vertical-align: top;
+}
+.markdown-body tr > :last-child { border-right: none; }
+.markdown-body tbody tr:last-child > * { border-bottom: none; }
+.markdown-body th:empty::after, .markdown-body td:empty::after { content: "\00a0"; }
+.markdown-body th { background: var(--bd-table-header-bg); font-weight: 620; }
+.markdown-body tbody tr:nth-child(2n) { background: var(--bd-table-stripe); }
+
+.markdown-body .md-math-block { text-align: center; overflow-x: auto; overflow-y: hidden; }
+.markdown-body .md-diagram { display: flex; justify-content: center; }
+.markdown-body .md-diagram svg { max-width: 100%; height: auto; }
+
+.markdown-body .footnotes { font-size: 0.88em; color: var(--bd-muted); }
+.markdown-body .footnotes-sep { margin-top: 3em; }
+.markdown-body .footnote-ref a { text-decoration: none; }
+
+.md-toc { margin: 0 0 1em; padding: 0.6em 1.1em; border-left: 2px solid var(--bd-border); }
+.md-toc ul { list-style: none; margin: 0; padding: 0; }
+.md-toc li { margin: 0.15em 0; }
+.md-toc a { color: var(--bd-fg); text-decoration: none; }
+.md-toc a:hover { color: var(--bd-link); }
+.md-toc .md-toc-h2 { padding-left: 1.1em; }
+.md-toc .md-toc-h3 { padding-left: 2.2em; }
+.md-toc .md-toc-h4 { padding-left: 3.3em; }
+.md-toc .md-toc-h5 { padding-left: 4.4em; }
+.md-toc .md-toc-h6 { padding-left: 5.5em; }
+
+/* Code tokens (Lezer class highlighter) */
+.tok-keyword, .tok-controlKeyword, .tok-definitionKeyword, .tok-moduleKeyword, .tok-operatorKeyword { color: var(--tok-keyword); }
+.tok-string, .tok-string2, .tok-character, .tok-special.tok-string, .tok-regexp { color: var(--tok-string); }
+.tok-number, .tok-bool, .tok-atom, .tok-null, .tok-literal, .tok-unit { color: var(--tok-number); }
+.tok-comment, .tok-lineComment, .tok-blockComment, .tok-docComment { color: var(--tok-comment); font-style: italic; }
+.tok-function, .tok-variableName.tok-function, .tok-definition.tok-function { color: var(--tok-function); }
+.tok-typeName, .tok-className, .tok-namespace, .tok-standard { color: var(--tok-type); }
+.tok-propertyName, .tok-labelName { color: var(--tok-property); }
+.tok-operator, .tok-punctuation, .tok-bracket { color: var(--tok-operator); }
+.tok-tagName { color: var(--tok-tag); }
+.tok-attributeName { color: var(--tok-attr); }
+.tok-meta, .tok-annotation, .tok-processingInstruction { color: var(--tok-meta); }
+.tok-invalid { color: #e11d48; }
+
+@media print {
+  .bd-export { background: #fff; }
+  .bd-export .markdown-body { padding: 0; max-width: none; }
+  .markdown-body pre, .markdown-body table, .markdown-body img, .markdown-body .md-diagram,
+  .markdown-body .md-math-block, .markdown-body blockquote { break-inside: avoid; }
+  .markdown-body h1, .markdown-body h2, .markdown-body h3, .markdown-body h4 { break-after: avoid; }
+  .markdown-body pre { white-space: pre-wrap; }
+}

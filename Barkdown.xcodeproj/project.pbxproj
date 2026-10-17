@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		0F3EC8C930832380009FC5C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F3EC8B030832380009FC5C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F3EC8B730832380009FC5C1;
+			remoteInfo = Barkdown;
+		};
+		0F3EC8D330832380009FC5C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F3EC8B030832380009FC5C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F3EC8B730832380009FC5C1;
+			remoteInfo = Barkdown;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F3EC8B830832380009FC5C1 /* Barkdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Barkdown.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F3EC8C830832380009FC5C1 /* BarkdownTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarkdownTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F3EC8D230832380009FC5C1 /* BarkdownUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarkdownUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		0F3EC8D830832380009FC5C1 /* Exceptions for "Barkdown" folder in "Barkdown" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 0F3EC8B730832380009FC5C1 /* Barkdown */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		0F3EC8BA30832380009FC5C1 /* Barkdown */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				0F3EC8D830832380009FC5C1 /* Exceptions for "Barkdown" folder in "Barkdown" target */,
+			);
+			path = Barkdown;
+			sourceTree = "<group>";
+		};
+		0F3EC8CB30832380009FC5C1 /* BarkdownTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BarkdownTests;
+			sourceTree = "<group>";
+		};
+		0F3EC8D530832380009FC5C1 /* BarkdownUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BarkdownUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F3EC8B530832380009FC5C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		0F3EC8C530832380009FC5C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		0F3EC8CF30832380009FC5C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F3EC8AF30832380009FC5C1 = {
+			isa = PBXGroup;
+			children = (
+				0F3EC8BA30832380009FC5C1 /* Barkdown */,
+				0F3EC8CB30832380009FC5C1 /* BarkdownTests */,
+				0F3EC8D530832380009FC5C1 /* BarkdownUITests */,
+				0F3EC8B930832380009FC5C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F3EC8B930832380009FC5C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F3EC8B830832380009FC5C1 /* Barkdown.app */,
+				0F3EC8C830832380009FC5C1 /* BarkdownTests.xctest */,
+				0F3EC8D230832380009FC5C1 /* BarkdownUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F3EC8B730832380009FC5C1 /* Barkdown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F3EC8D930832380009FC5C1 /* Build configuration list for PBXNativeTarget "Barkdown" */;
+			buildPhases = (
+				0F3EC8B430832380009FC5C1 /* Sources */,
+				0F3EC8B530832380009FC5C1 /* Frameworks */,
+				0F3EC8B630832380009FC5C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				0F3EC8BA30832380009FC5C1 /* Barkdown */,
+			);
+			name = Barkdown;
+			productName = Barkdown;
+			productReference = 0F3EC8B830832380009FC5C1 /* Barkdown.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0F3EC8C730832380009FC5C1 /* BarkdownTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F3EC8DE30832380009FC5C1 /* Build configuration list for PBXNativeTarget "BarkdownTests" */;
+			buildPhases = (
+				0F3EC8C430832380009FC5C1 /* Sources */,
+				0F3EC8C530832380009FC5C1 /* Frameworks */,
+				0F3EC8C630832380009FC5C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F3EC8CA30832380009FC5C1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0F3EC8CB30832380009FC5C1 /* BarkdownTests */,
+			);
+			name = BarkdownTests;
+			productName = BarkdownTests;
+			productReference = 0F3EC8C830832380009FC5C1 /* BarkdownTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0F3EC8D130832380009FC5C1 /* BarkdownUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F3EC8E130832380009FC5C1 /* Build configuration list for PBXNativeTarget "BarkdownUITests" */;
+			buildPhases = (
+				0F3EC8CE30832380009FC5C1 /* Sources */,
+				0F3EC8CF30832380009FC5C1 /* Frameworks */,
+				0F3EC8D030832380009FC5C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F3EC8D430832380009FC5C1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0F3EC8D530832380009FC5C1 /* BarkdownUITests */,
+			);
+			name = BarkdownUITests;
+			productName = BarkdownUITests;
+			productReference = 0F3EC8D230832380009FC5C1 /* BarkdownUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F3EC8B030832380009FC5C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2710;
+				LastUpgradeCheck = 2710;
+				TargetAttributes = {
+					0F3EC8B730832380009FC5C1 = {
+						CreatedOnToolsVersion = 27.1;
+					};
+					0F3EC8C730832380009FC5C1 = {
+						CreatedOnToolsVersion = 27.1;
+						TestTargetID = 0F3EC8B730832380009FC5C1;
+					};
+					0F3EC8D130832380009FC5C1 = {
+						CreatedOnToolsVersion = 27.1;
+						TestTargetID = 0F3EC8B730832380009FC5C1;
+					};
+				};
+			};
+			buildConfigurationList = 0F3EC8B330832380009FC5C1 /* Build configuration list for PBXProject "Barkdown" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0F3EC8AF30832380009FC5C1;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 0F3EC8B930832380009FC5C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F3EC8B730832380009FC5C1 /* Barkdown */,
+				0F3EC8C730832380009FC5C1 /* BarkdownTests */,
+				0F3EC8D130832380009FC5C1 /* BarkdownUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F3EC8B630832380009FC5C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		0F3EC8C630832380009FC5C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		0F3EC8D030832380009FC5C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F3EC8B430832380009FC5C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		0F3EC8C430832380009FC5C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		0F3EC8CE30832380009FC5C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F3EC8CA30832380009FC5C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F3EC8B730832380009FC5C1 /* Barkdown */;
+			targetProxy = 0F3EC8C930832380009FC5C1 /* PBXContainerItemProxy */;
+		};
+		0F3EC8D430832380009FC5C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F3EC8B730832380009FC5C1 /* Barkdown */;
+			targetProxy = 0F3EC8D330832380009FC5C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F3EC8DA30832380009FC5C1 /* Debug configuration for PBXNativeTarget "Barkdown" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L3FVX7V5JT;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readwrite;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Barkdown/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.jkratz55.Barkdown;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0F3EC8DB30832380009FC5C1 /* Release configuration for PBXNativeTarget "Barkdown" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L3FVX7V5JT;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readwrite;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Barkdown/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.jkratz55.Barkdown;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		0F3EC8DC30832380009FC5C1 /* Debug configuration for PBXProject "Barkdown" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = L3FVX7V5JT;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0F3EC8DD30832380009FC5C1 /* Release configuration for PBXProject "Barkdown" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = L3FVX7V5JT;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		0F3EC8DF30832380009FC5C1 /* Debug configuration for PBXNativeTarget "BarkdownTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L3FVX7V5JT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.jkratz55.BarkdownTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Barkdown.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Barkdown";
+			};
+			name = Debug;
+		};
+		0F3EC8E030832380009FC5C1 /* Release configuration for PBXNativeTarget "BarkdownTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L3FVX7V5JT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.jkratz55.BarkdownTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Barkdown.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Barkdown";
+			};
+			name = Release;
+		};
+		0F3EC8E230832380009FC5C1 /* Debug configuration for PBXNativeTarget "BarkdownUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L3FVX7V5JT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.jkratz55.BarkdownUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Barkdown;
+			};
+			name = Debug;
+		};
+		0F3EC8E330832380009FC5C1 /* Release configuration for PBXNativeTarget "BarkdownUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L3FVX7V5JT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.jkratz55.BarkdownUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Barkdown;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F3EC8B330832380009FC5C1 /* Build configuration list for PBXProject "Barkdown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F3EC8DC30832380009FC5C1 /* Debug configuration for PBXProject "Barkdown" */,
+				0F3EC8DD30832380009FC5C1 /* Release configuration for PBXProject "Barkdown" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		0F3EC8D930832380009FC5C1 /* Build configuration list for PBXNativeTarget "Barkdown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F3EC8DA30832380009FC5C1 /* Debug configuration for PBXNativeTarget "Barkdown" */,
+				0F3EC8DB30832380009FC5C1 /* Release configuration for PBXNativeTarget "Barkdown" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		0F3EC8DE30832380009FC5C1 /* Build configuration list for PBXNativeTarget "BarkdownTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F3EC8DF30832380009FC5C1 /* Debug configuration for PBXNativeTarget "BarkdownTests" */,
+				0F3EC8E030832380009FC5C1 /* Release configuration for PBXNativeTarget "BarkdownTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		0F3EC8E130832380009FC5C1 /* Build configuration list for PBXNativeTarget "BarkdownUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F3EC8E230832380009FC5C1 /* Debug configuration for PBXNativeTarget "BarkdownUITests" */,
+				0F3EC8E330832380009FC5C1 /* Release configuration for PBXNativeTarget "BarkdownUITests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F3EC8B030832380009FC5C1 /* Project object */;
+	validationLevel = 1;
+}
